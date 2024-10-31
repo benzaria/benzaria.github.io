@@ -1,0 +1,32 @@
+{
+    "name": "electron-app",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder --win --x64 --dir"
+    },
+    "build": {
+        "appId": "com.benz.fmpqcm",
+        "productName": "Fmp QCM",
+        "files": [
+            "**/*"
+        ],
+        "win": {
+            "target": [
+                {
+                    "target": "zip",
+                    "arch": ["x64"]
+                }
+            ]
+        }
+    },
+    "keywords": [],
+    "author": "benz",
+    "license": "ISC",
+    "description": "FMP QCM",
+    "devDependencies": {
+        "electron": "^33.0.2",
+        "electron-builder": "^25.1.8"
+    }
+}
