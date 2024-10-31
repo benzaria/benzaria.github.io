@@ -10,7 +10,7 @@ async function decode(key, iv,  file) {
         const enc_str = await response.text();
         let dec_str = enc_str;
         if (key != '') {
-            dec_str = atob(enc_str.replace(/\s+/g, ''));
+            dec_str = atob(enc_str); //.replace(/\s+/g, '')
         }
         json_data = JSON.parse(dec_str);
     } catch (error) {
@@ -73,10 +73,6 @@ function createForms(max) {
         const correctInput = document.createElement('button');
         correctInput.classList.add('btns');
         correctInput.id = 'f' + i + 'crct'
-        /*correctInput.onclick = async () => {
-            await get_answer(i, i+1);
-            crct(i);
-        };*/
         correctInput.addEventListener('click', async () => {
             await get_answer(i, i + 1);
             crct(i);
@@ -92,7 +88,6 @@ function createForms(max) {
         resetInput.classList.add('btns');
         resetInput.type = 'reset';
         resetInput.id = 'f' + i + 'rst';
-        //resetInput.onclick = () => rst(i);
         resetInput.addEventListener('click', () => rst(i));
         resetLabel.appendChild(resetInput);
         resetLabel.append('Reset');

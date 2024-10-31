@@ -1,5 +1,6 @@
 
 async function decode(key, iv,  file) {
+    // testing function
     console.log('decoding...')
     try {
         const response = await fetch(file);
@@ -9,7 +10,7 @@ async function decode(key, iv,  file) {
         const enc_str = await response.text();
         let dec_str = enc_str;
         if (key != '') {
-            dec_str = atob(enc_str.replace(/\s+/g, ''));
+            dec_str = atob(enc_str);
         }
         json_data = JSON.parse(dec_str);
     } catch (error) {
@@ -18,6 +19,7 @@ async function decode(key, iv,  file) {
 }
 
 async function encode(key, iv, file) {
+    // function in progress
     console.log('encoding...')
 }
 
