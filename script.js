@@ -15,6 +15,7 @@ async function loadPages() {
         echo(`adding: ${repo.name}`)
 
         const a = document.createElement('a')
+        a.target = '_blank'
         a.className = 'link-card'
         a.href = `https://${user}.github.io/${repo.name}`
         a.innerHTML = `<i class="fa-solid fa-arrow-up-right-from-square"></i> ${repo.name} →`
