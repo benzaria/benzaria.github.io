@@ -57,6 +57,11 @@ h1 {
     transition: 0.2s;
 }
 
+.link-card .arrow-icon {
+    margin-left: auto;
+    color: #7f5cff;
+}
+
 .place-holder:not(:last-child) {
     display: none;
 }

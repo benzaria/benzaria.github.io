@@ -18,7 +18,11 @@ async function loadPages() {
         a.target = '_blank'
         a.className = 'link-card'
         a.href = `https://${user}.github.io/${repo.name}`
-        a.innerHTML = `<i class="fa-solid fa-arrow-up-right-from-square"></i> ${repo.name} →`
+        a.innerHTML = `
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+             ${repo.name} 
+            <i class="fa-solid fa-angle-right arrow-icon"></i>
+        `
         container.appendChild(a)
     })
 }
