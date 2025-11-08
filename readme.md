@@ -1,8 +1,19 @@
+<div style="display: flex; align-items: center; gap: 15px;">
+  <div style="width: 200px; display: flex; align-items: center; flex-direction: column; gap: 5px;">
+    <img src="https://github.com/benzaria.png" width="120" style="border-radius: 50%;">
+    <p>@benzaria</p>
+  </div>
+
+  <div>
+
 # Hi there, I’m Benz 👋  
-#### (@benzaria)
 
 I’m a **doctor** and a passionate **developer**, always exploring technology, science, and creative problem-solving.  
 I enjoy building tools, experimenting with code, and learning something new every day.
+
+  </div>
+</div>
+
 
 ---
 
@@ -17,15 +28,18 @@ I enjoy building tools, experimenting with code, and learning something new ever
 ---
 
 ## 🔧 Projects & What I'm Working On  
-- **overtyped** — an all-in-one TypeScript library featuring robust and strongly-typed **Higher-Kinded Types**, type-level **Arithmetic**, and advanced functional utilities.
+- [**`overtyped`**](https://github.com/benzaria/overtyped) — an all-in-one TypeScript library featuring robust and strongly-typed **Higher-Kinded Types**, type-level **Arithmetic**, and advanced functional utilities.
+- [**`RunBash`**](https://github.com/benzaria/batch-args) — run Bash and Linux binaries on Windows
+- [**`batch-args`**](https://github.com/benzaria/batch-args) — a robust and modern batch arguments handler/parser
+- [**`compile-ahk`**](https://github.com/benzaria/compile-ahk) — a better compiling experience for AutoHotkey
 
 ---
 
 ## 🧩 Contributions  
 ### ✅ **TypeFest (sindresorhus/type-fest)**  
 I contributed types and improvements to TypeFest — one of the most widely-used TypeScript utility libraries.
-- [Meregd PRs](https://github.com/sindresorhus/type-fest/pulls?q=is%3Amerged+is%3Apr+author%3Abenzaria+)
-- [Open PRs](https://github.com/sindresorhus/type-fest/pulls?q=is%3Aopen+is%3Apr+author%3Abenzaria+)
+- [**Meregd PRs**](https://github.com/sindresorhus/type-fest/pulls?q=is%3Amerged+is%3Apr+author%3Abenzaria+)
+- [**Open PRs**](https://github.com/sindresorhus/type-fest/pulls?q=is%3Aopen+is%3Apr+author%3Abenzaria+)
 
 ---
 
